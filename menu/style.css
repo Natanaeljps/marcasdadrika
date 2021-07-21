@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: linear-gradient(45deg, white, rgb(241, 211, 182));
+  margin: 1rem;
+}
+
+a{
+  color: black;
+}
+
+/*==Page 01==*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+img.logo {
+  width: 8rem;
+}
+
+/*==Menu==*/
+
+.menu {
+  width: auto;
+  height: 10rem;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 2rem;
+}
+
+.menu .box {
+  width: 6rem;
+  border-radius: 0.5rem;
+
+  margin: 0.5rem;
+}
+
+.menu img {
+  width: 5rem;
+}
+
+.menu button {
+  background: #f16161;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+
+  width: auto;
+  height: 8rem;
+
+  box-shadow: 0.1em 0.2em 0.5em 0.01em #777;
+}
+
+.menu button:hover {
+  background: burlywood;
+  transform: translate(0, 0.25em);
+}
+
+/*Footer*/
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10rem;
+
+  text-align: center;
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+}
+
+.contato button {
+  display: grid;
+
+  background: #f16161;
+  padding: 0.5rem;
+  height: 4.7rem;
+  width: 7rem;
+  border: none;
+  border-radius: 0.5rem;
+
+  margin: 0.5rem;
+  font-size: 1rem;
+
+  box-shadow: 0.1em 0.2em 0.5em 0.01em #777;
+}
+
+.contato button:hover {
+  background: burlywood;
+
+  transform: translate(0, 0.25em);
+}
+
+.icon-whatsapp,
+.icon-instagram {
+  color: black;
+  font-size: 1.5rem;
+
+  box-shadow: none;
+}
+
+.copy {
+  font-size: .7rem;
+  margin-top: 2rem;
+  text-align: center;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
